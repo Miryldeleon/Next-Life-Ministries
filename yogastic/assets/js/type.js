@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     var message = [
-        'DISCOVER THE VERIFIED',
-        'TRUTH ABOUT YOU AFTERLIFE.'
+        'YOUR COSMIC ADVENTURE',
+        'TO PARADISE BEGINS NOW.'
     ].join('\n');
 
     var index = 0;
