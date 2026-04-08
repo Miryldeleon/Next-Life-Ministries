@@ -26,20 +26,25 @@ body {
     font-family: 'Karla', sans-serif;
 }
 :root {
-    --e-global-color-primary: #2D3A32;
-    --e-global-color-secondary: #6FAF3A;
-    --e-global-color-text: #2D3A32;
-    --e-global-color-accent: #2F6B3D;
+    --e-global-color-primary: #2E3A35;
+    --e-global-color-secondary: #6E9271;
+    --e-global-color-text: #2E3A35;
+    --e-global-color-accent: #6E9271;
 	--e-global-color-white: #ffffff;
-    --e-global-color-soft-orange: #E6C48F;
-    --e-global-color-desaturated-magenta: #2F6B3D;
-    --e-global-color-very-dark-desaturated-magenta: #255634;
-    --e-global-color-mostly-desaturated-magenta: #5A8C68;
+    --e-global-color-soft-orange: #EEDAB7;
+    --e-global-color-desaturated-magenta: #6E9271;
+    --e-global-color-very-dark-desaturated-magenta: #2F647E;
+    --e-global-color-mostly-desaturated-magenta: #6E9271;
     --e-global-color-pale-blue: #EAF7FB;
-    --nlm-sky-blue: #6DB7FF;
-    --nlm-soft-seafoam: #CFEFE8;
-    --nlm-ocean-mist: #EAF7FB;
-    --nlm-sun-cream: #FFF8ED;
+    --nlm-ocean-blue: #4F88B8;
+    --nlm-ocean-teal: #2F647E;
+    --nlm-soft-aqua: #EAF7FB;
+    --nlm-seafoam: #E2F3EE;
+    --nlm-sand: #EEDAB7;
+    --nlm-sand-soft: #F6EEDB;
+    --nlm-off-white: #FBF9F4;
+    --nlm-muted-palm: #6E9271;
+    --nlm-text-dark: #2E3A35;
 }
 html{
     scroll-behavior: smooth;
@@ -1427,7 +1432,7 @@ textarea {
     font-weight: 400;
     padding: 14px 24px;
     text-align: center;
-    background-color: #2F6B3D;
+    background-color: #5F8364;
     color: var(--e-global-color-white);
     display: inline-block;
     border-radius: 25px 0 25px 0;
