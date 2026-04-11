@@ -150,7 +150,7 @@
         margin: 0 12px 0 12px;
     }
     .navbar-nav .nav-item .contact_us {
-        padding: 18px 40px;
+        padding: 0;
     }
     .navbar-nav .drop-down-pages .nav-item a {
         font-size: 15px;
@@ -204,10 +204,6 @@
         font-size: 20px;
         line-height: 20px;
         padding: 22px 45px;
-    }
-    .banner-section-outer .banner-section .banner-section-content .top-btn i {
-        font-size: 65px;
-        line-height: 65px;
     }
     .banner-section-outer .banner-section .banner-section-image figure {
         top: 0;
@@ -1045,12 +1041,14 @@
         box-shadow: 1px 1px 30px rgb(0 0 0 / 10%);
     }
     .navbar-nav .active > a{
-        color: var(--e-global-color-primary) !important;
-        background-color: var(--e-global-color-soft-orange) !important;
+        color: var(--e-global-color-secondary) !important;
+        background-color: transparent !important;
+        text-decoration: underline;
     }
     .navbar-nav .nav-item a:hover{
-        color: var(--e-global-color-primary) !important;
-        background-color: var(--e-global-color-soft-orange) !important;
+        color: var(--e-global-color-secondary) !important;
+        background-color: transparent !important;
+        text-decoration: underline;
     }
     .navbar-toggler {
         margin-left: auto;
@@ -1173,10 +1171,6 @@
         font-size: 18px;
         line-height: 18px;
         padding: 20px 40px;
-    }
-    .banner-section-outer .banner-section .banner-section-content .top-btn i {
-        font-size: 46px;
-        line-height: 46px;
     }
     .banner-section-outer .banner-section .banner-section-image img {
         width: 360px;
@@ -1966,10 +1960,6 @@
         font-size: 16px;
         line-height: 16px;
         padding: 18px 38px;
-    }
-    .banner-section-outer .banner-section .banner-section-content .top-btn i {
-        font-size: 42px;
-        line-height: 42px;
     }
     .banner-section-outer .banner-section .banner-section-image figure {
         position: relative;
@@ -2766,10 +2756,6 @@
         font-size: 14px;
         line-height: 14px;
         padding: 16px 35px;
-    }
-    .banner-section-outer .banner-section .banner-section-content .top-btn i {
-        font-size: 35px;
-        line-height: 35px;
     }
     .banner-section-outer .banner-section .banner_left_top_shape{
         display: none;
