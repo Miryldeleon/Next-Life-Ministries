@@ -1043,12 +1043,10 @@
     .navbar-nav .active > a{
         color: var(--e-global-color-secondary) !important;
         background-color: transparent !important;
-        text-decoration: underline;
     }
     .navbar-nav .nav-item a:hover{
         color: var(--e-global-color-secondary) !important;
         background-color: transparent !important;
-        text-decoration: underline;
     }
     .navbar-toggler {
         margin-left: auto;

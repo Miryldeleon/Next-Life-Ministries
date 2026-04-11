@@ -1742,25 +1742,25 @@ a.item-link{margin-top: 20px; display: inline-block}
     padding: 34px 120px 0;
 }
 
-.home-content-page .navbar .nav-link {
+.home-content-page .main_header .navbar .navbar-nav .nav-link {
     color: #FFFFFF !important;
     text-shadow: 0 1px 16px rgba(0, 0, 0, 0.35);
     font-size: 16px;
     line-height: 16px;
-    opacity: 1;
+    display: inline-block;
+    padding-bottom: 6px;
     position: relative;
     text-decoration: none !important;
     background: transparent !important;
-    filter: none;
-    mix-blend-mode: normal;
+    transition: color 0.25s ease;
 }
 
-.home-content-page .navbar .nav-link::after {
+.home-content-page .main_header .navbar .navbar-nav .nav-link::after {
     content: "";
     position: absolute;
     left: 0;
     width: 100%;
-    bottom: -6px;
+    bottom: -4px;
     height: 1px;
     background: #F5E8CF;
     transform: scaleX(0);
@@ -1788,24 +1788,25 @@ a.item-link{margin-top: 20px; display: inline-block}
     border-radius: 0;
 }
 
-.home-content-page .navbar .nav-item.active .nav-link,
-.home-content-page .navbar .nav-link:hover {
+.home-content-page .main_header .navbar .navbar-nav .nav-link:hover,
+.home-content-page .main_header .navbar .navbar-nav .nav-item.active > .nav-link,
+.home-content-page .main_header .navbar .navbar-nav .nav-item.active > .nav-link:hover {
     color: #F5E8CF !important;
     text-shadow: 0 2px 16px rgba(0, 0, 0, 0.62);
     background: transparent;
-    opacity: 1;
     text-decoration: none !important;
 }
 
-.home-content-page .navbar .nav-item.active .nav-link:hover {
-    color: #F5E8CF !important;
-    text-shadow: 0 2px 16px rgba(0, 0, 0, 0.62);
+.home-content-page .main_header .navbar .navbar-nav .nav-link:hover::after,
+.home-content-page .main_header .navbar .navbar-nav .nav-item.active > .nav-link::after,
+.home-content-page .main_header .navbar .navbar-nav .nav-item.active > .nav-link:hover::after {
+    transform: scaleX(1);
 }
 
-.home-content-page .navbar .nav-link:hover::after,
-.home-content-page .navbar .nav-item.active .nav-link::after,
-.home-content-page .navbar .nav-item.active .nav-link:hover::after {
-    transform: scaleX(1);
+.home-content-page .main_header .navbar .navbar-nav .nav-link:focus,
+.home-content-page .main_header .navbar .navbar-nav .nav-link:focus-visible {
+    outline: none;
+    text-decoration: none !important;
 }
 
 .home-content-page .banner-section {
@@ -1943,7 +1944,7 @@ a.item-link{margin-top: 20px; display: inline-block}
 .home-content-page .hero-cta-group .getstarted_btn:hover {
     background: #4F88B8;
     border-color: #4F88B8;
-    color: #FFFFFF;
+    color: #2F647E;
     transform: translateY(-3px);
 }
 

@@ -147,18 +147,14 @@ p{
     letter-spacing: 0.02em;
     color: var(--e-global-color-white) !important;
     text-decoration: none;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 1px;
     transition: color 0.25s ease, opacity 0.25s ease;
 }
 .navbar-nav .nav-item a:hover{
     color: var(--e-global-color-soft-orange) !important;
     background-color: transparent;
-    text-decoration: underline;
 }
 .navbar-nav .active > a{
     color: var(--e-global-color-soft-orange) !important;
-    text-decoration: underline;
 }
 .navbar-nav .dropdown{
     margin: 0 15px 0 20px;
