@@ -2079,7 +2079,7 @@ a.item-link{margin-top: 20px; display: inline-block}
 
 .home-image-placeholder {
     width: 100%;
-    height: 280px;
+    height: 320px;
     background: #EAF7FB;
     border: 1px dashed #CFE2EE;
     border-radius: 12px;
@@ -2090,6 +2090,14 @@ a.item-link{margin-top: 20px; display: inline-block}
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.02em;
+}
+
+.home-image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
 }
 
 .home-mission-panel {
@@ -2221,7 +2229,7 @@ a.item-link{margin-top: 20px; display: inline-block}
 
     .home-image-placeholder {
         margin-top: 22px;
-        height: 240px;
+        height: 270px;
     }
 }
 
